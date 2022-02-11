@@ -86,7 +86,8 @@ class BouncyWidget extends Widget {
     super()
     this.id = Math.floor(Math.random() * Number.MAX_SAFE_INTEGER);
     this.wType = 'bouncy'
-    this.shapes = []
+    delete this.shapes
+    delete this.currentShape
     console.log("Bouncy Widget Created")
   }
   move() {
