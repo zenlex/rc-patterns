@@ -10,10 +10,10 @@ How are they cataloged/organized?
 
 Week 2 - 2/11/2022
 Creational Patterns p.1
-Abstract Factory - Colin Shevlin
-Builder - George M.
-Factory Method - Erich K
-Prototype - Andrew
+Abstract Factory  
+Builder  
+Factory Method 
+Prototype 
 
 Week 3 - 2/18/2022
 Creational Patterns p.2 
