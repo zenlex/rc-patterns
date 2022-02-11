@@ -132,4 +132,16 @@ class SquishyWidget extends Widget {
   }
 
 }
-module.exports = { WidgetCreator, Widget }
+
+//add customized factory
+class BouncyFactory extends WidgetCreator {
+  constructor() {
+    super()
+    this.wType = 'bouncy'
+    delete this.widgets
+  }
+  createWidget() {
+    return new BouncyWidget()
+  }
+}
+module.exports = { WidgetCreator, Widget, BouncyFactory }
