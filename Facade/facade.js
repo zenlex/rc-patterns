@@ -2,7 +2,7 @@
  * FACADE Pattern:
  * Provides a higher level consistent interface to clients for a complex subsystem
  * 
- * ? aPPLICABILITY(Use when...):
+ * ? APPLICABILITY(Use when...):
  * ?    You want to provide a simple interface to a complex system. Especially one that is likely to get more complex over time (which is most subsystems)
  * ?    There are many dependencies between clients and implementation classes of an abstraction. The Facade can be used to decouple the subsystem from clients and other subsystems
  * ?    You want to layer your subystems - use a facade to define an entry point to each subsystem level. If the subsystems are dependent you can simplify the  dependencies by making them communicate with each other solely through their facades
